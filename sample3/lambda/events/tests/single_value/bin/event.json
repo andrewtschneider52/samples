@@ -1,0 +1,37 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.0",
+      "eventTime": "2018-04-17T19:10:08.205Z",
+      "requestParameters": {
+        "sourceIPAddress": "128.205.205.239"
+      },
+      "s3": {
+        "configurationId": "beb65cbe-60a4-47c6-89f8-386fd586209d",
+        "object": {
+          "sequencer": "005AD6469003B233C7",
+          "key": "events/translated/duke_gesle_win4410_2_eventlog_v0.5.csv",
+          "size": 11681
+        },
+        "bucket": {
+          "arn": "arn:aws:s3:::sentient-science-customer-test",
+          "name": "sentient-science-customer-test",
+          "ownerIdentity": {
+            "principalId": "A0250216ZP2H70R35JVD"
+          }
+        },
+        "s3SchemaVersion": "1.0"
+      },
+      "responseElements": {
+        "x-amz-id-2": "Ok0hx6RdeHi1r2RjzQoEPR/aZvw1/9VAUe7es8/LjB6CK75hcEXvETwfyU4jm8fYe94BNV9g8zs=",
+        "x-amz-request-id": "33198E6E1B64658D"
+      },
+      "awsRegion": "us-east-1",
+      "eventName": "ObjectCreated:Copy",
+      "userIdentity": {
+        "principalId": "AWS:AIDAJN5IPWW44VCH7HF4G"
+      },
+      "eventSource": "aws:s3"
+    }
+  ]
+}

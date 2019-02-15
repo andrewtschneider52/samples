@@ -1,0 +1,7 @@
+pushd deployer
+cp ../src/test_*.py .
+cp ../src/library.py .
+zip -r9 test_driver.zip .
+aws s3 cp test_driver.zip s3://sentient-science-customer-acciona/uploads/test_driver.zip
+rm test_driver.zip
+popd

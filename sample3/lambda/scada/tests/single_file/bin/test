@@ -1,0 +1,2 @@
+rm tmp/*
+python src/main.py logs bin/event.json

@@ -1,0 +1,3 @@
+rm tmp/*
+python src/test_driver.py logs "sentient-science-customer-test" "scada/mapped/AGUILA/B414/gridfreq/AGUILA.B414.gridfreq.20170101000000.20170419235000.csv.bz2"
+
